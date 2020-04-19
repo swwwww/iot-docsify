@@ -12,6 +12,8 @@ IOT物联网平台V1.0.0基础功能开发已完成，已满足交付各产品�
 ## 项目技术栈
 
 - React（v16.9.11）
+- React-Router-Dom（路由管理）
+- Mobx（状态管理）
 - Antd（UI组件库）
 - TypeScript
 - Egg.js（Node框架）
