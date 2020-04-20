@@ -138,8 +138,6 @@ Antd 的样式使用了 Less 作为开发语言，并定义了一系列全局/�
 
 这个是 React v15 的生命周期，你都掌握了吗？你知道 v16 有什么变化吗？
 
-之前无论你去哪里面试，基本都会有几个必问问题：
-
 - 讲讲 React 生命周期？React v15 和 React v16 生命周期有啥变化？
 - 如何优化 Class 组件？shouldComponentUpdate 是做什么的？如何用？
 ......
@@ -321,6 +319,8 @@ Hooks 逻辑复用简单
 - routes 路由管理
     - ...
 - utils 工具管理
+    - AsyncComponent
+    - tools
     - ...
 
 
@@ -341,9 +341,7 @@ Hooks 逻辑复用简单
         }
 
         const [userInfo, setUserInfo] = useState<any>(null)
-
         const [confirmVisible, setConfirmVisible] = useState<boolean>(false)
-
         const { menuPosition, themeType } = useStore()
 
         useEffect(() => {
